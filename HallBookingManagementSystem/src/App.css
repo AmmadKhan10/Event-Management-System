@@ -1,0 +1,158 @@
+.Main-page {
+  background-image: url('/homeimg3.jpg');
+  background-size: cover; /* or 'contain' if you want the entire image to fit inside the container */
+  background-position: center; 
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  /* height: 101vh;  */
+  width: 100%;  
+}
+
+.Main-heading {
+  font-size: 3.7vw;
+  /* color: rgba(255, 255, 255, 0.678); */
+  /* color: rgba(218, 233, 9, 0.849); */
+  /* color: rgb(50, 167, 167); */
+  /* color: rgba(165, 42, 42, 0.87); */
+  color: blueviolet;
+  font-weight: 900;
+  margin-left:38vw;
+  font-style: italic ;
+  margin-top: 0.7vw;
+  
+  
+}
+span {
+  margin-left: 12vw;
+  
+}
+.heading {
+  display: flex;
+}
+.heading img {
+  width: 13%;
+  border-radius: 10px;
+  margin:0.5vw 0vw 0vw 5.5vw;
+  height: 7vw;
+  
+}
+/* .Header {
+  display: flex;
+}
+.Header img {
+  width: 13%;
+  border-radius: 10px;
+  margin:0.5vw 0vw 0vw 5.5vw;
+  height: 7vw;
+  
+}
+.Right {
+  display: flex;
+} */
+
+.SignupForm {
+  width: 30%;
+  margin: 1vw 0vw 0vw 45vw;
+  padding: 1em 1em 2em 1em;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  background-color: #ffffff8f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  
+}
+.Login-form {
+  width: 30%;
+  margin: 1vw 0vw 0vw 45vw;
+  padding: 1em 1em 2em 1em;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  background-color: #ffffff8f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.Login-form {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+} 
+
+.SignupForm:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.SignupForm h1 {
+  text-align: center;
+  /* color: #1089cf; */
+  color: #072d57;
+  margin: 0vw 0vw 1.5vw 0vw;
+  font-size: 2vw;
+  font-weight: 700;
+}
+.Login-form h1 {
+  text-align: center;
+  /* color: #1089cf; */
+  color: #072d57;
+  margin: 0vw 0vw 1.5vw 0vw;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+
+.submitButton {
+  display: block;
+  width: 28%;
+  height: 3vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #072d57;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2vw 0vw 0vw 9vw;
+  box-shadow: 3px 3px 5px red;
+ 
+ 
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.loginButton {
+  display: block;
+  width: 28%;
+  height: 3vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #072d57;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2vw 0vw 0vw 9vw;
+  box-shadow: 3px 3px 5px red;
+ 
+}
+.inputs {
+ 
+  background-color: #ffffff8f;
+  border: 1px solid rgba(255, 255, 255, 0.767);
+  border-radius: 5px;
+}
+
+.fa-solid {
+  font-size: 1.5vw;
+  margin-left: 4vw;
+}
+.input2, .input3, .input4, .input5, .input6 {
+  margin-top: 1.5vw;
+  margin-left: 1vw;
+  width: 60%;
+}
+.input1 {
+  margin-left: 1vw;
+  width: 60%;
+}
