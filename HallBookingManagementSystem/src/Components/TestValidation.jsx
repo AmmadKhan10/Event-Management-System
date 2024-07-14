@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-function MainPage() {
+function TestValidation() {
   const [isSignUpShown, setIsSignUpShown] = useState(false);
   const [isLoginShown, setIsLoginShown] = useState(false);
 
@@ -255,4 +255,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default TestValidation;
