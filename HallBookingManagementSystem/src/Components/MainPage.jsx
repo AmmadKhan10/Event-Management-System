@@ -164,7 +164,7 @@ function MainPage() {
                   type="password"
                   placeholder="Confirm Password"
                   className="inputs input4"
-                  name="Confirm Password"
+                  name="ConfirmPassword"
                   value={signUpForm.ConfirmPassword}
                   onChange={handleSignUpChange}
                 />
